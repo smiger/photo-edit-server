@@ -1,0 +1,1371 @@
+[ 2020-08-30T00:25:48+08:00 ] 117.136.31.250 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0005s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2020-08-30T00:25:48+08:00 ] 117.136.31.250 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2020-08-30T00:27:17+08:00 ] 117.136.31.250 /picapi//nineDetail?id=3399&version=v2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 3399 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 3399 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2020-08-30T00:27:44+08:00 ] 117.136.31.250 /picapi/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/www/picServer/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2020-08-30T00:28:39+08:00 ] 117.136.31.250 /picapi//nineDetail?id=3395&version=v2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 3395 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 3395 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2020-08-30T00:29:03+08:00 ] 117.136.31.250 /picapi/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/www/picServer/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2020-08-30T00:29:15+08:00 ] 117.136.31.250 /picapi//nineDetail?id=3397&version=v2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 3397 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 3397 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2020-08-30T00:29:20+08:00 ] 117.136.31.250 /picapi/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/www/picServer/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2020-08-30T00:29:36+08:00 ] 117.136.31.250 /picapi//index?version=v2&page=1&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 10,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2020-08-30T00:29:45+08:00 ] 117.136.31.250 /picapi//index?version=v2&page=2&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 20,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2020-08-30T00:30:10+08:00 ] 117.136.31.250 /picapi//nineDetail?id=3397&version=v2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 3397 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 3397 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2020-08-30T00:30:32+08:00 ] 117.136.31.250 /picapi/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/www/picServer/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2020-08-30T01:01:10+08:00 ] 223.104.187.4 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2020-08-30T01:01:10+08:00 ] 223.104.187.4 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0004s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2020-08-30T10:10:16+08:00 ] 49.66.100.101 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2020-08-30T10:10:16+08:00 ] 49.66.100.101 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0008s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2020-08-30T10:17:03+08:00 ] 113.251.50.56 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2020-08-30T10:17:03+08:00 ] 113.251.50.56 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0004s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2020-08-30T10:20:12+08:00 ] 113.251.50.56 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0005s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2020-08-30T10:20:12+08:00 ] 113.251.50.56 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2020-08-30T11:20:00+08:00 ] 223.104.66.104 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2020-08-30T11:20:00+08:00 ] 223.104.66.104 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2020-08-30T11:35:08+08:00 ] 39.154.12.47 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0004s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2020-08-30T11:35:08+08:00 ] 39.154.12.47 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2020-08-30T12:36:28+08:00 ] 175.24.98.169 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2020-08-30T12:36:28+08:00 ] 81.68.172.243 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2020-08-30T12:49:12+08:00 ] 42.90.154.60 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2020-08-30T12:49:12+08:00 ] 42.90.154.60 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2020-08-30T13:27:36+08:00 ] 218.22.185.144 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2020-08-30T13:27:36+08:00 ] 218.22.185.144 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2020-08-30T13:32:16+08:00 ] 120.216.239.202 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2020-08-30T13:32:16+08:00 ] 120.216.239.202 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0004s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2020-08-30T13:55:29+08:00 ] 123.181.81.193 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2020-08-30T13:55:29+08:00 ] 123.181.81.193 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2020-08-30T14:28:46+08:00 ] 223.81.116.207 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2020-08-30T14:28:46+08:00 ] 223.81.116.207 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0004s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2020-08-30T14:35:05+08:00 ] 223.81.116.207 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2020-08-30T14:35:05+08:00 ] 223.81.116.207 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0004s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2020-08-30T16:28:47+08:00 ] 117.140.107.99 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2020-08-30T16:28:47+08:00 ] 117.140.107.99 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2020-08-30T16:28:59+08:00 ] 117.140.107.99 /picapi//index?version=v2&page=1&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 10,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2020-08-30T17:25:28+08:00 ] 122.225.24.101 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2020-08-30T17:25:28+08:00 ] 122.225.24.101 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2020-08-30T17:32:10+08:00 ] 122.225.24.101 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2020-08-30T17:32:10+08:00 ] 122.225.24.101 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2020-08-30T17:42:45+08:00 ] 122.225.24.101 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2020-08-30T17:42:45+08:00 ] 122.225.24.101 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2020-08-30T17:42:59+08:00 ] 122.225.24.101 /picapi//nineList?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2020-08-30T17:43:02+08:00 ] 122.225.24.101 /picapi//nineList?version=v2&page=1&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 10,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2020-08-30T17:43:05+08:00 ] 122.225.24.101 /picapi//nineList?version=v2&page=2&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 20,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2020-08-30T17:43:08+08:00 ] 122.225.24.101 /picapi//nineDetail?id=3385&version=v2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 3385 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 3385 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2020-08-30T18:29:39+08:00 ] 116.178.226.209 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2020-08-30T18:29:39+08:00 ] 116.178.226.209 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0005s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2020-08-30T21:24:57+08:00 ] 222.216.84.72 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0009s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2020-08-30T21:24:57+08:00 ] 222.216.84.72 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2020-08-30T21:25:28+08:00 ] 222.216.84.72 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000252s ]
+
+[ 2020-08-30T21:25:28+08:00 ] 222.216.84.72 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0005s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2020-08-30T22:15:43+08:00 ] 222.216.84.72 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0004s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2020-08-30T22:15:43+08:00 ] 222.216.84.72 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2020-08-30T22:18:12+08:00 ] 117.136.23.117 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2020-08-30T22:18:12+08:00 ] 117.136.23.117 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0004s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2020-08-30T22:18:12+08:00 ] 117.136.23.117 /picapi//nineList?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0005s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2020-08-30T22:18:31+08:00 ] 117.136.23.117 /picapi//nineDetail?id=3397&version=v2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 3397 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 3397 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2020-08-30T22:19:37+08:00 ] 117.136.23.117 /picapi/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/www/picServer/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2020-08-30T22:20:23+08:00 ] 117.136.23.117 /picapi/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/www/picServer/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2020-08-30T22:20:42+08:00 ] 117.136.23.117 /picapi/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /opt/lampp/www/picServer/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2020-08-30T22:35:21+08:00 ] 183.0.159.84 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2020-08-30T22:35:21+08:00 ] 183.0.159.84 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000245s ]
+
+[ 2020-08-30T22:38:41+08:00 ] 183.208.231.172 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2020-08-30T22:38:41+08:00 ] 183.208.231.172 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2020-08-30T23:37:31+08:00 ] 39.87.171.167 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2020-08-30T23:37:31+08:00 ] 39.87.171.167 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2020-08-30T23:40:32+08:00 ] 39.87.171.167 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2020-08-30T23:40:32+08:00 ] 39.87.171.167 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+

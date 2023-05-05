@@ -1,0 +1,39 @@
+[ 2021-12-17T20:16:58+08:00 ] 175.24.85.179 /picapi/config/wx8dfbc97733f412a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004756s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0006s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001705s ]
+
+[ 2021-12-17T20:16:58+08:00 ] 49.234.57.38 /picapi//index?version=v2&page=0&size=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0007s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+NOTIC: [8] Undefined index: datetime /opt/lampp/www/picServer/App/Qwadmin/Controller/PicapiController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+

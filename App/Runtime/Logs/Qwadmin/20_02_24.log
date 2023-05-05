@@ -1,0 +1,775 @@
+[ 2020-02-24T17:09:37+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000611s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004579s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0763s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 1 D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\ComController.class.php 第 27 行.
+
+[ 2020-02-24T17:09:38+08:00 ] ::1 /login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000244s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0112s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\LoginController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000727s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001940s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.203779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002928s ]
+
+[ 2020-02-24T17:09:39+08:00 ] ::1 /login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000272s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002547s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0718s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002724s ]
+
+[ 2020-02-24T17:09:39+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000299s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002060s ]
+
+[ 2020-02-24T17:09:46+08:00 ] ::1 /login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000296s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003260s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0632s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0478s ]
+SQL: SELECT `uid`,`user` FROM `qw_member` WHERE `user` = 'admin' AND `password` = '0fa5933c7d220e1334ba99d6f751074c' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0072s ]
+SQL: UPDATE `qw_member` SET `identifier`='1062403a0f2bb3a89b13be0f36aa7364',`token`='ac3826447eaa0751b0416fecc9900ea1',`salt`='qrMMzewb8r' WHERE `uid` = 1 [ RunTime:0.0045s ]
+
+[ 2020-02-24T17:09:47+08:00 ] ::1 /index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000280s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002569s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0282s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0266s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0559s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0343s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0170s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: list D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: mysql D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\IndexController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000564s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001991s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.286248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.287419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003417s ]
+
+[ 2020-02-24T17:09:47+08:00 ] ::1 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000291s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002269s ]
+
+[ 2020-02-24T17:09:51+08:00 ] ::1 /Setting/setting.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000239s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004164s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0464s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0293s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Setting/setting' [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0261s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0348s ]
+SQL: SELECT * FROM `qw_setting` WHERE ( type=1 )  [ RunTime:0.0135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001729s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.624048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.625286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005608s ]
+
+[ 2020-02-24T17:09:51+08:00 ] ::1 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001701s ]
+
+[ 2020-02-24T17:10:08+08:00 ] ::1 /Setting/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000346s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0221s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0153s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Setting/update' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0121s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0015s ]
+SQL: UPDATE `qw_setting` SET `v`='网站后台管理' WHERE ( k='title' ) [ RunTime:0.0008s ]
+SQL: UPDATE `qw_setting` SET `v`='wx8dfbc97733f412a1' WHERE ( k='appID' ) [ RunTime:0.0008s ]
+SQL: UPDATE `qw_setting` SET `v`='8e14919ce4dd5e07eeacddcdcb4e64d0' WHERE ( k='appSecret' ) [ RunTime:0.0005s ]
+SQL: UPDATE `qw_setting` SET `v`='sms_name' WHERE ( k='sms_name' ) [ RunTime:0.0005s ]
+SQL: UPDATE `qw_setting` SET `v`='sms_pwd' WHERE ( k='sms_pwd' ) [ RunTime:0.0006s ]
+SQL: UPDATE `qw_setting` SET `v`='' WHERE ( k='sitename' ) [ RunTime:0.0009s ]
+SQL: UPDATE `qw_setting` SET `v`='' WHERE ( k='keywords' ) [ RunTime:0.0005s ]
+SQL: UPDATE `qw_setting` SET `v`='' WHERE ( k='description' ) [ RunTime:0.0007s ]
+SQL: UPDATE `qw_setting` SET `v`='' WHERE ( k='footer' ) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000761s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002787s ]
+
+[ 2020-02-24T17:10:10+08:00 ] ::1 /Setting/setting.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000273s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002510s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0382s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0452s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Setting/setting' [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0159s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qw_setting` WHERE ( type=1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002594s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.292581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.293657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003738s ]
+
+[ 2020-02-24T17:10:10+08:00 ] ::1 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001402s ]
+
+[ 2020-02-24T17:10:34+08:00 ] ::1 /picapi/getAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000289s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004266s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0179s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0005s ]
+NOTIC: [2] file_get_contents(access_token.php): failed to open stream: No such file or directory D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 170 行.
+NOTIC: [8] Trying to get property 'expire_time' of non-object D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 135 行.
+NOTIC: [2] Creating default object from empty value D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 142 行.
+ERR: Cannot use object of type stdClass as array
+
+[ 2020-02-24T17:11:17+08:00 ] ::1 /picapi/getAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003036s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0398s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001976s ]
+
+[ 2020-02-24T17:11:55+08:00 ] ::1 /picapi/getAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000269s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005291s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0238s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003060s ]
+
+[ 2020-02-24T18:12:24+08:00 ] ::1 /Photo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000287s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021781s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0346s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0103s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Photo/add' [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000709s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001687s ]
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 375 行.
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 380 行.
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 391 行.
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 403 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.479656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.480451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023661s ]
+
+[ 2020-02-24T18:12:24+08:00 ] ::1 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000301s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003150s ]
+
+[ 2020-02-24T18:12:25+08:00 ] ::1 /Upload/uploadpic.html?Width=176&Height=240&BackCall=thumbnail&Img=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000286s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007845s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0421s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0175s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Upload/uploadpic' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0132s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: img D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\UploadController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000469s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2020-02-24T18:12:41+08:00 ] ::1 /Upload/uploadpic.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002972s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0181s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0104s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Upload/uploadpic' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0107s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000530s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001607s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002411s ]
+
+[ 2020-02-24T18:12:46+08:00 ] ::1 /Upload/uploadpic.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000266s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0176s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0166s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Upload/uploadpic' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0162s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000554s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001801s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002641s ]
+
+[ 2020-02-24T18:12:57+08:00 ] ::1 /Photo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000285s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004982s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0279s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0190s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Photo/add' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0153s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000712s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002865s ]
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 375 行.
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 380 行.
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 391 行.
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 403 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.285677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.286818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008288s ]
+
+[ 2020-02-24T18:12:57+08:00 ] ::1 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000262s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002190s ]
+
+[ 2020-02-24T18:12:58+08:00 ] ::1 /Upload/uploadpic.html?Width=176&Height=240&BackCall=thumbnail&Img=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000284s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004290s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0290s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0494s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0039s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Upload/uploadpic' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0319s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: img D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\UploadController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000476s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001638s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003578s ]
+
+[ 2020-02-24T18:13:03+08:00 ] ::1 /Upload/uploadpic.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000281s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002592s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0255s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0158s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Upload/uploadpic' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000525s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002028s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001659s ]
+
+[ 2020-02-24T18:13:15+08:00 ] ::1 /Photo/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000280s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002860s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0298s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0253s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Photo/update' [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0162s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0848s ]
+SQL: INSERT INTO `qw_photo` (`name`,`category`,`content`,`image`,`addtime`) VALUES ('特3456书yuuo莞6543李zxcz蒜7782法fgnv级','','<img src=\"/Public/attached/image/20200224/20200224111313_93281.png\" alt=\"\" />','/Public/attached/202002/1582539183.png','1582539195') [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000989s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002386s ]
+
+[ 2020-02-24T18:13:17+08:00 ] ::1 /Photo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002209s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0209s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0212s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Photo/add' [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0164s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000686s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001880s ]
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 375 行.
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 380 行.
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 391 行.
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 403 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.314941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.315956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002775s ]
+
+[ 2020-02-24T18:13:17+08:00 ] ::1 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002162s ]
+
+[ 2020-02-24T18:13:18+08:00 ] ::1 /Upload/uploadpic.html?Width=176&Height=240&BackCall=thumbnail&Img=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0089s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0083s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Upload/uploadpic' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0331s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: img D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\UploadController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000614s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001888s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001999s ]
+
+[ 2020-02-24T18:20:56+08:00 ] ::1 /Upload/uploadpic.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000296s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011494s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0494s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0186s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Upload/uploadpic' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0173s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000597s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001901s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.367683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.369071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006129s ]
+
+[ 2020-02-24T18:21:09+08:00 ] ::1 /Photo/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000283s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003284s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0204s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0093s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Photo/update' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0128s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0121s ]
+SQL: INSERT INTO `qw_photo` (`name`,`category`,`content`,`image`,`addtime`) VALUES ('印度良心—米叔电影合辑','111','<img src=\"/Public/attached/image/20200224/20200224112104_12484.png\" alt=\"\" />','/Public/attached/202002/1582539655.png','1582539669') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000559s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001736s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002234s ]
+
+[ 2020-02-24T18:21:11+08:00 ] ::1 /Photo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0146s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0124s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Photo/add' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001044s ]
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 375 行.
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 380 行.
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 391 行.
+NOTIC: [8] Undefined variable: article D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 403 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.266472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.267475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003277s ]
+
+[ 2020-02-24T18:21:11+08:00 ] ::1 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000281s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002272s ]
+
+[ 2020-02-24T18:21:12+08:00 ] ::1 /Upload/uploadpic.html?Width=176&Height=240&BackCall=thumbnail&Img=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0252s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0118s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Upload/uploadpic' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0126s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: img D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\UploadController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000962s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002274s ]
+
+[ 2020-02-24T18:21:41+08:00 ] ::1 /Photo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002303s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0201s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0123s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '1062403a0f2bb3a89b13be0f36aa7364' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Photo/index' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0124s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0154s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000711s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002129s ]
+NOTIC: [8] Undefined index: title D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 390 行.
+NOTIC: [2] Use of undefined constant edit - assumed 'edit' (this will throw an Error in a future version of PHP) D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 392 行.
+NOTIC: [8] Undefined index: title D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 390 行.
+NOTIC: [2] Use of undefined constant edit - assumed 'edit' (this will throw an Error in a future version of PHP) D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 392 行.
+NOTIC: [8] Undefined index: title D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 390 行.
+NOTIC: [2] Use of undefined constant edit - assumed 'edit' (this will throw an Error in a future version of PHP) D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 392 行.
+NOTIC: [8] Undefined index: title D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 390 行.
+NOTIC: [2] Use of undefined constant edit - assumed 'edit' (this will throw an Error in a future version of PHP) D:\code\miniproject\picserver\server2\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 392 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.475978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.477141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003694s ]
+
+[ 2020-02-24T18:21:41+08:00 ] ::1 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000282s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002598s ]
+

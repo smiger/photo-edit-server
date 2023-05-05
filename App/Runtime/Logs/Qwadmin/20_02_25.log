@@ -1,0 +1,370 @@
+[ 2020-02-25T22:48:03+08:00 ] ::1 /picapi/imgSecCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000979s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0420s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0026s ]
+NOTIC: [2] file_get_contents(): Filename cannot be empty D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 136 行.
+NOTIC: [2] file_put_contents(/dev/shm/tmp1.png): failed to open stream: No such file or directory D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 138 行.
+ERR: Class 'Qwadmin\Controller\CURLFile' not found
+
+[ 2020-02-25T22:48:04+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000270s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001868s ]
+
+[ 2020-02-25T22:50:51+08:00 ] ::1 /picapi/imgSecCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000262s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0152s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+NOTIC: [2] file_get_contents(): Filename cannot be empty D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 136 行.
+NOTIC: [2] file_put_contents(/dev/shm/tmp1.png): failed to open stream: No such file or directory D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 138 行.
+ERR: Class 'Qwadmin\Controller\CURLFile' not found
+
+[ 2020-02-25T22:52:18+08:00 ] ::1 /picapi/imgSecCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0186s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+NOTIC: [2] file_get_contents(): Filename cannot be empty D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 136 行.
+NOTIC: [2] file_put_contents(/dev/shm/tmp1.png): failed to open stream: No such file or directory D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 138 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032285s ]
+
+[ 2020-02-25T22:53:05+08:00 ] ::1 /picapi/imgSecCheck?img=http://t8.baidu.com/it/u=3571592872,3353494284&fm=79&app=86&f=JPEG?w=1200&h=1290
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000290s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0162s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+NOTIC: [2] file_get_contents(http://t8.baidu.com/it/u=3571592872,3353494284): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 136 行.
+NOTIC: [2] file_put_contents(/dev/shm/tmp1.png): failed to open stream: No such file or directory D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 138 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001816s ]
+
+[ 2020-02-25T22:53:25+08:00 ] ::1 /picapi/imgSecCheck?img=http://t8.baidu.com/it/u=3571592872,3353494284&fm=79&app=86&f=JPEG?w=1200&h=1290
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0139s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+NOTIC: [2] file_get_contents(http://t8.baidu.com/it/u=3571592872,3353494284): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 136 行.
+NOTIC: [2] file_put_contents(/dev/shm/tmp1.png): failed to open stream: No such file or directory D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 138 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002358s ]
+
+[ 2020-02-25T22:54:03+08:00 ] ::1 /picapi/imgSecCheck?img=http://t8.baidu.com/it/u=3571592872,3353494284&fm=79&app=86&f=JPEG?w=1200&h=1290
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002792s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0237s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0005s ]
+NOTIC: [2] file_get_contents(http://t8.baidu.com/it/u=3571592872,3353494284): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 137 行.
+NOTIC: [2] file_put_contents(/dev/shm/tmp1.png): failed to open stream: No such file or directory D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2020-02-25T22:54:17+08:00 ] ::1 /picapi/imgSecCheck?img=http://t8.baidu.com/it/u=3571592872,3353494284
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0173s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+NOTIC: [2] file_get_contents(http://t8.baidu.com/it/u=3571592872,3353494284): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 137 行.
+NOTIC: [2] file_put_contents(/dev/shm/tmp1.png): failed to open stream: No such file or directory D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001889s ]
+
+[ 2020-02-25T22:56:19+08:00 ] ::1 /picapi/imgSecCheck?img=http://t8.baidu.com/it/u=3571592872,3353494284
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003830s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0265s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+NOTIC: [2] file_get_contents(http://t8.baidu.com/it/u=3571592872,3353494284): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 136 行.
+NOTIC: [2] file_put_contents(/dev/shm/tmp1.png): failed to open stream: No such file or directory D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 138 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002663s ]
+
+[ 2020-02-25T22:56:40+08:00 ] ::1 /picapi/imgSecCheck?img=http://t8.baidu.com/it/u=3571592872,3353494284
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0184s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+NOTIC: [2] file_get_contents(http://t8.baidu.com/it/u=3571592872,3353494284): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 136 行.
+NOTIC: [2] file_put_contents(/dev/shm/tmp1.png): failed to open stream: No such file or directory D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 138 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002841s ]
+
+[ 2020-02-25T22:57:15+08:00 ] ::1 /picapi/imgSecCheck?img=http://t8.baidu.com/it/u=3571592872,3353494284
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002071s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0203s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+NOTIC: [2] file_get_contents(http://t8.baidu.com/it/u=3571592872,3353494284): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 136 行.
+NOTIC: [2] file_put_contents(/dev/shm/tmp1.png): failed to open stream: No such file or directory D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 138 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2020-02-25T22:57:38+08:00 ] ::1 /picapi/imgSecCheck?img=http://t8.baidu.com/it/u=3571592872,3353494284
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0137s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+NOTIC: [2] file_get_contents(http://t8.baidu.com/it/u=3571592872,3353494284): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 136 行.
+NOTIC: [2] file_put_contents(/dev/shm/tmp1.png): failed to open stream: No such file or directory D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 138 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002076s ]
+
+[ 2020-02-25T22:59:18+08:00 ] ::1 /picapi/imgSecCheck?img=http://t8.baidu.com/it/u=3571592872,3353494284
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000292s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0148s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0005s ]
+NOTIC: [2] file_get_contents(http://t8.baidu.com/it/u=3571592872,3353494284): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 136 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003072s ]
+
+[ 2020-02-25T23:00:12+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0142s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001980s ]
+
+[ 2020-02-25T23:03:00+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0331s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003005s ]
+
+[ 2020-02-25T23:04:08+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000279s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003078s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0188s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001812s ]
+
+[ 2020-02-25T23:18:08+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024219s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0252s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016773s ]
+
+[ 2020-02-25T23:20:54+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000265s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003226s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0243s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal string offset 'errcode' D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 145 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001963s ]
+
+[ 2020-02-25T23:21:14+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000281s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003555s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0298s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0013s ]
+NOTIC: [2] Illegal string offset 'errcode' D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 145 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2020-02-25T23:21:23+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000268s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0245s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002720s ]
+
+[ 2020-02-25T23:21:41+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000265s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0338s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0006s ]
+NOTIC: [2] Illegal string offset 'errcode' D:\code\miniproject\picserver\server2\App\Qwadmin\Controller\PicapiController.class.php 第 145 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002315s ]
+
+[ 2020-02-25T23:22:02+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0178s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003058s ]
+
+[ 2020-02-25T23:22:32+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000262s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0217s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+ERR: Cannot use object of type stdClass as array
+
+[ 2020-02-25T23:22:59+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000271s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002897s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0283s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0005s ]
+ERR: Cannot use object of type stdClass as array
+
+[ 2020-02-25T23:23:27+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0181s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2020-02-25T23:25:07+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002993s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0178s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2020-02-25T23:28:04+08:00 ] ::1 /picapi/imgSecCheck?img=https://upload.qudong.com/2020/0224/1582524123334.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0176s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003394s ]
+

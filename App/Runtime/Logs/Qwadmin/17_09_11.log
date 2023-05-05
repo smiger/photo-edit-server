@@ -1,0 +1,720 @@
+[ 2017-09-11T14:08:58+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=1&openid=o4nEO0Ub6FWYYw1L-UBRcE_0r69s&vid=0&avatar=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLmpPrUOnDmlVzBnsZBia42ISFeXfE4Z9hfjrmryCPDicpiamwia8EZAXC08icQrAkIUWY0Kux29roPzAA%2F0&uname=X%E3%80%82%E5%B9%B8%E7%A3%8A%5C%E4%BA%92%E8%81%94%E5%88%9B%E6%83%B3%26%E5%A4%A9%E5%88%9B%E8%87%B4%E8%BE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo_guanzhu` WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `qw_photo_guanzhu` SET `time`='1505110138' WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:58+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=2&vid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 0 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:58+08:00 ] 171.117.92.150 /picapi/GetOpenid/code/081BEI582oRy5Q091e682QKC582BEI5m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:58+08:00 ] 171.117.92.150 /picapi/view/id/3374
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 3374  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id ASC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 3374 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 3374 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+
+[ 2017-09-11T14:08:58+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=1&openid=o4nEO0Ub6FWYYw1L-UBRcE_0r69s&vid=0&avatar=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLmpPrUOnDmlVzBnsZBia42ISFeXfE4Z9hfjrmryCPDicpiamwia8EZAXC08icQrAkIUWY0Kux29roPzAA%2F0&uname=X%E3%80%82%E5%B9%B8%E7%A3%8A%5C%E4%BA%92%E8%81%94%E5%88%9B%E6%83%B3%26%E5%A4%A9%E5%88%9B%E8%87%B4%E8%BE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo_guanzhu` WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `qw_photo_guanzhu` SET `time`='1505110138' WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:58+08:00 ] 171.117.92.150 /picapi/view/id/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id ASC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\webhome\pic.55625.com\App\Qwadmin\Controller\PicapiController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:58+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=2&vid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 0 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:58+08:00 ] 171.117.92.150 /picapi/GetOpenid/code/071H3zPA1f7BJg0zPTOA1qdHPA1H3zPa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:58+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=1&openid=o4nEO0Ub6FWYYw1L-UBRcE_0r69s&vid=0&avatar=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLmpPrUOnDmlVzBnsZBia42ISFeXfE4Z9hfjrmryCPDicpiamwia8EZAXC08icQrAkIUWY0Kux29roPzAA%2F0&uname=X%E3%80%82%E5%B9%B8%E7%A3%8A%5C%E4%BA%92%E8%81%94%E5%88%9B%E6%83%B3%26%E5%A4%A9%E5%88%9B%E8%87%B4%E8%BE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo_guanzhu` WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `qw_photo_guanzhu` SET `time`='1505110138' WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/view/id/3374
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 3374  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id ASC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 3374 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 3374 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/GetOpenid/code/0716nKPE0o85Oe21IGOE0YhEPE06nKPL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=2&vid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 0 ORDER BY time DESC LIMIT 88   [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=1&openid=o4nEO0Ub6FWYYw1L-UBRcE_0r69s&vid=0&avatar=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLmpPrUOnDmlVzBnsZBia42ISFeXfE4Z9hfjrmryCPDicpiamwia8EZAXC08icQrAkIUWY0Kux29roPzAA%2F0&uname=X%E3%80%82%E5%B9%B8%E7%A3%8A%5C%E4%BA%92%E8%81%94%E5%88%9B%E6%83%B3%26%E5%A4%A9%E5%88%9B%E8%87%B4%E8%BE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo_guanzhu` WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `qw_photo_guanzhu` SET `time`='1505110139' WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=2&vid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 0 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/view/id/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id ASC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\webhome\pic.55625.com\App\Qwadmin\Controller\PicapiController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/GetOpenid/code/0115MNvT1nJYh91J7ItT1QuFvT15MNvK
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=1&openid=o4nEO0Ub6FWYYw1L-UBRcE_0r69s&vid=0&avatar=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLmpPrUOnDmlVzBnsZBia42ISFeXfE4Z9hfjrmryCPDicpiamwia8EZAXC08icQrAkIUWY0Kux29roPzAA%2F0&uname=X%E3%80%82%E5%B9%B8%E7%A3%8A%5C%E4%BA%92%E8%81%94%E5%88%9B%E6%83%B3%26%E5%A4%A9%E5%88%9B%E8%87%B4%E8%BE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo_guanzhu` WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `qw_photo_guanzhu` SET `time`='1505110139' WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=2&vid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 0 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/GetOpenid/code/071dGhty0XlwEj1BvOry0LIity0dGhtP
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/view/id/3374
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 3374  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id ASC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 3374 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 3374 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=1&openid=o4nEO0Ub6FWYYw1L-UBRcE_0r69s&vid=0&avatar=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLmpPrUOnDmlVzBnsZBia42ISFeXfE4Z9hfjrmryCPDicpiamwia8EZAXC08icQrAkIUWY0Kux29roPzAA%2F0&uname=X%E3%80%82%E5%B9%B8%E7%A3%8A%5C%E4%BA%92%E8%81%94%E5%88%9B%E6%83%B3%26%E5%A4%A9%E5%88%9B%E8%87%B4%E8%BE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo_guanzhu` WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `qw_photo_guanzhu` SET `time`='1505110139' WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=2&vid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 0 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/GetOpenid/code/011Uk6bb1UEfgt08I4eb1vLNab1Uk6bN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/view/id/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id ASC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\webhome\pic.55625.com\App\Qwadmin\Controller\PicapiController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=1&openid=o4nEO0Ub6FWYYw1L-UBRcE_0r69s&vid=0&avatar=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLmpPrUOnDmlVzBnsZBia42ISFeXfE4Z9hfjrmryCPDicpiamwia8EZAXC08icQrAkIUWY0Kux29roPzAA%2F0&uname=X%E3%80%82%E5%B9%B8%E7%A3%8A%5C%E4%BA%92%E8%81%94%E5%88%9B%E6%83%B3%26%E5%A4%A9%E5%88%9B%E8%87%B4%E8%BE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo_guanzhu` WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `qw_photo_guanzhu` SET `time`='1505110139' WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=2&vid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 0 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/GetOpenid/code/021aGKTw1vMzvb01iOTw1rsCTw1aGKTQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=1&openid=o4nEO0Ub6FWYYw1L-UBRcE_0r69s&vid=0&avatar=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLmpPrUOnDmlVzBnsZBia42ISFeXfE4Z9hfjrmryCPDicpiamwia8EZAXC08icQrAkIUWY0Kux29roPzAA%2F0&uname=X%E3%80%82%E5%B9%B8%E7%A3%8A%5C%E4%BA%92%E8%81%94%E5%88%9B%E6%83%B3%26%E5%A4%A9%E5%88%9B%E8%87%B4%E8%BE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo_guanzhu` WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `qw_photo_guanzhu` SET `time`='1505110139' WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/view/id/3374
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 3374  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id ASC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 3374 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 3374 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+
+[ 2017-09-11T14:08:59+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=2&vid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 0 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:09:00+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=1&openid=o4nEO0Ub6FWYYw1L-UBRcE_0r69s&vid=0&avatar=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLmpPrUOnDmlVzBnsZBia42ISFeXfE4Z9hfjrmryCPDicpiamwia8EZAXC08icQrAkIUWY0Kux29roPzAA%2F0&uname=X%E3%80%82%E5%B9%B8%E7%A3%8A%5C%E4%BA%92%E8%81%94%E5%88%9B%E6%83%B3%26%E5%A4%A9%E5%88%9B%E8%87%B4%E8%BE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo_guanzhu` WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `qw_photo_guanzhu` SET `time`='1505110140' WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:09:00+08:00 ] 171.117.92.150 /picapi/view/id/%3C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id ASC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\webhome\pic.55625.com\App\Qwadmin\Controller\PicapiController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:09:00+08:00 ] 171.117.92.150 /picapi/GetOpenid/code/061hGJ9p1gEvmo0gFEap1DQW9p1hGJ9a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:09:00+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=2&vid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 0 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:09:00+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=1&openid=o4nEO0Ub6FWYYw1L-UBRcE_0r69s&vid=0&avatar=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLmpPrUOnDmlVzBnsZBia42ISFeXfE4Z9hfjrmryCPDicpiamwia8EZAXC08icQrAkIUWY0Kux29roPzAA%2F0&uname=X%E3%80%82%E5%B9%B8%E7%A3%8A%5C%E4%BA%92%E8%81%94%E5%88%9B%E6%83%B3%26%E5%A4%A9%E5%88%9B%E8%87%B4%E8%BE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo_guanzhu` WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `qw_photo_guanzhu` SET `time`='1505110140' WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:09:00+08:00 ] 171.117.92.150 /picapi/view/id/3374
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` WHERE `id` = 3374  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id ASC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` WHERE `id` = 3374 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 3374 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+
+[ 2017-09-11T14:09:00+08:00 ] 171.117.92.150 /picapi/GetOpenid/code/021Jn0hS0UDuwa26Z1fS0LaHgS0Jn0hf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:09:00+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=2&vid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo_guanzhu` WHERE `vid` = 0 ORDER BY time DESC LIMIT 88   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:09:00+08:00 ] 171.117.92.150 /picapi/getGuanzhu/?cid=1&openid=o4nEO0Ub6FWYYw1L-UBRcE_0r69s&vid=0&avatar=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLmpPrUOnDmlVzBnsZBia42ISFeXfE4Z9hfjrmryCPDicpiamwia8EZAXC08icQrAkIUWY0Kux29roPzAA%2F0&uname=X%E3%80%82%E5%B9%B8%E7%A3%8A%5C%E4%BA%92%E8%81%94%E5%88%9B%E6%83%B3%26%E5%A4%A9%E5%88%9B%E8%87%B4%E8%BE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_photo_guanzhu` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo_guanzhu` WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `qw_photo_guanzhu` SET `time`='1505110140' WHERE `vid` = 0 AND `openid` = 'o4nEO0Ub6FWYYw1L-UBRcE_0r69s' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:09:00+08:00 ] 171.117.92.150 /picapi/GetOpenid/code/011pErdw0w8Anh1333aw0Eeddw0pErdI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:10:06+08:00 ] 171.117.92.150 /Photo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = 'df2384b95a2b0835e1289e5d58aa073a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Photo/add' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: article E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 375 行.
+NOTIC: [8] Undefined variable: article E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 380 行.
+NOTIC: [8] Undefined variable: article E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 391 行.
+NOTIC: [8] Undefined variable: article E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\64d867ca563339ac18511dad11741266.php 第 403 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:10:07+08:00 ] 171.117.92.150 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:10:07+08:00 ] 171.117.92.150 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:10:07+08:00 ] 171.117.92.150 /Upload/uploadpic.html?Width=176&Height=240&BackCall=thumbnail&Img=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = 'df2384b95a2b0835e1289e5d58aa073a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Upload/uploadpic' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\webhome\pic.55625.com\App\Qwadmin\Controller\ComController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: img E:\webhome\pic.55625.com\App\Qwadmin\Controller\UploadController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-11T14:10:07+08:00 ] 171.117.92.150 /Photo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0156s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = 'df2384b95a2b0835e1289e5d58aa073a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Photo/index' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_photo` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_photo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_photo` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 390 行.
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 392 行.
+NOTIC: [8] Undefined index: title E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 390 行.
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 392 行.
+NOTIC: [8] Undefined index: title E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 390 行.
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 392 行.
+NOTIC: [8] Undefined index: title E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 390 行.
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 392 行.
+NOTIC: [8] Undefined index: title E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 390 行.
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 392 行.
+NOTIC: [8] Undefined index: title E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 390 行.
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 392 行.
+NOTIC: [8] Undefined index: title E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 390 行.
+NOTIC: [8] Use of undefined constant edit - assumed 'edit' E:\webhome\pic.55625.com\App\Runtime\Cache\Qwadmin\fb100c0293377dc6d7f46d7439f2977e.php 第 392 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:10:07+08:00 ] 171.117.92.150 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:10:07+08:00 ] 171.117.92.150 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:10:09+08:00 ] 171.117.92.150 /Setting/setting.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = 'df2384b95a2b0835e1289e5d58aa073a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Setting/setting' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (1,2,3,56,6,5,7,8,9,10,51,52,53,57,13,14,15,16,17,18,108,109,110)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_setting` WHERE ( type=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:10:10+08:00 ] 171.117.92.150 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:10:10+08:00 ] 171.117.92.150 /Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
