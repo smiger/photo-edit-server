@@ -305,7 +305,7 @@ INSERT INTO `qw_setting` VALUES ('keywords', '', 0, '');
 INSERT INTO `qw_setting` VALUES ('description', '', 0, '');
 INSERT INTO `qw_setting` VALUES ('footer', '', 0, '');
 INSERT INTO `qw_setting` VALUES ('appID', 'wx8dfbc97733f412a1', 1, 'appID');
-INSERT INTO `qw_setting` VALUES ('appSecret', '04bae946610108a304ac3cd292337a79', 1, 'appSecret');
+INSERT INTO `qw_setting` VALUES ('appSecret', '04bae94************92337a79', 1, 'appSecret');
 INSERT INTO `qw_setting` VALUES ('sms_name', 'sms_name', 1, '短信账号');
 INSERT INTO `qw_setting` VALUES ('sms_pwd', 'sms_pwd', 1, '短信密码');
 
